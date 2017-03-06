@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+
+ body{
+   font-family:"微软雅黑";
+   font-size:12px;
+ }
+
+.width{
+   	width:990px;
+   	margin:0 auto;
+   }
+
+header>nav{
+   	background:#f5f5f5 none repeat scroll 0 0;
+      border-bottom:1px solid #d8d4d5;
+   }
+
+header>nav>div{
+   	overflow:hidden;
+   }
+
+header>nav>div>p{
+      height: 30px;
+      line-height:30px;
+      margin:0;
+      float:left;
+   }
+header>nav>div>p>i{
+      color:#f84600;
+      margin-right:1px;
+}
+
+header>nav>div>p>i.fa{
+      font-size:14px;
+}
+header>nav>div #hello>a{
+      text-decoration:none;
+      color:blue;
+   }
+
+header>nav>div>#date{
+   padding:0 0 0 90px;
+}
+
+header>nav>div>ul{
+   overflow:hidden;
+   float:right;
+   margin:0;
+   padding:0;
+}
+
+header>nav>div>ul>li{
+   float:left;
+   list-style:none;
+}
+
+header>nav>div>ul>li>a{
+   display:inline-block;
+   height:30px;
+   line-height:30px;
+   padding:0 10px;
+   text-decoration:none;
+   color:#000;
+}
+
+a:hover{
+   color:#f84600  !important;
+   text-decoration:underline !important;
+}
+
+header>#banner{
+   	height:72px;
+      padding:30px 0;
+   }
+
+header>#banner>#logo{
+      float:left;
+      color:#f84600;
+      font-weight:bold;
+      letter-spacing:1px;
+      margin-top:8px;
+}
+
+header>#banner>#logo>p{
+      margin:0;
+      float:right;
+      margin-left:5px;
+}
+
+header>#banner>#logo>p>span{
+       font-size:25px;
+       letter-spacing:4px;
+       display:block;
+       margin-bottom:5px;
+}
+
+header>#banner>#logo>i.fa{
+       font-size:54px;
+}
+
+header>#banner>form{
+       margin-left:120px;
+       display:inline-block;
+       margin-top:15px;
+}
+
+header>#banner>form>input:first-child{
+       border:#f84600 2px solid;
+       height:30px;
+       width:460px;
+       padding-left:5px;
+}
+
+header>#banner>form>input:last-child{
+       width:96px;
+       background:url('../image/btn_bg.PNG') no-repeat;
+       border:none;
+       height:37px;
+       position:relative;
+       left:-99px;
+       top:0px;
+       box-sizing:content-box;
+       cursor:pointer;
+       padding:0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* Chrome- and Safari-specific CSS here*/
+       header>#banner>form{
+        margin-top:0px;
+       }
+       header>#banner>form>input:last-child{
+        top:14px;
+       }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+      header>#banner>form>input:last-child{
+        top:-1px;
+       }
+}
+
+article>nav>ul{
+   overflow:hidden;
+   background-color:#f84600;
+   margin:0;
+   padding:0;
+}
+
+article>nav>ul>li{
+   float:left;
+   list-style:none;
+}
+
+article>nav>ul>li>a{
+   color:#fff;
+   text-decoration:none;
+   display:inline-block;
+   padding:10px 19px;
+   font-size:13px;
+}
+
+article>nav>ul>li>a:hover{
+   color:#000 !important;
+   background-color:#FFC125;
+   text-decoration:none !important;
+}
+
+article>article{
+   margin-top:10px;
+}
+
+footer{
+   padding:30px;
+   text-align:center;
+}
+
+footer a{
+   text-decoration:none;
+   color:#000;
+   font-weight:bold;
+   display:inline-block;
+}
+
+footer a:hover{
+   color:#000 !important;
+}
+
+footer>div#link>a{
+   padding:7px 15px;
+}
+
+footer>div#others{
+   margin-top:20px;
+}
+
+footer>div#others>a{
+   padding:0  20px;
+}
+
+.clearF{
+   clear:both;
+}
+
+.adv{
+   margin-top:10px;
+}
+
+.more{
+   float:right;
+   color:#000;
+   background:none;
+   padding:0;
+   font-size:12px;
+   font-weight:normal;
+   margin-right:5px;
+}
+
+.more>a{
+   color:#000;
+   text-decoration:none;
+}
