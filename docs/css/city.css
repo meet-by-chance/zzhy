@@ -1,0 +1,120 @@
+@charset  "utf-8";
+
+
+
+article>article{
+	overflow:hidden;
+}
+
+article>article>aside{
+   width:220px;
+   border:#e5e5e5 thin solid;
+   float:left;
+   height:525px;
+}
+
+article>article>#main{
+   float:right;
+   width:760px;
+   border:#e5e5e5 thin solid;
+   position:relative;
+   height:525px;
+}
+
+article>article>#main>div{
+	position:absolute;
+	left:0;
+	top:32px;
+}
+
+article>article>#main>p,article>article>aside>p{
+   height:30px;
+   line-height:30px;
+   padding-left:10px;
+   margin:0;
+   background:url('../image/loginP.jpg') repeat scroll;
+}
+
+article>article>#main>p>span{
+	color:#666;
+}
+
+article>article>#main>p>span>a{
+	color:#666;
+	text-decoration:none;
+}
+
+article>article>#main>p>span>a:hover{
+	color:#666 !important;
+}
+
+article>article>aside>p{
+	cursor:pointer;
+}
+
+article>article>aside>p>i{
+	color:#f84600;
+	margin-right:10px;
+	margin-left:20px;
+}
+
+article>article>aside>p>i.fa{
+	opacity:0.7;
+}
+
+.hover{
+   background-color:#f84600;
+   background-image:none;
+   color:#fff;
+   opacity:0.7;
+}
+
+.i{
+   color:#fff;
+   opacity:1 !important;
+}
+
+.click{
+   background-image:none;
+   background-color:#f84600;
+   color:#fff;
+   opacity:1;
+}
+
+article>article>#main table{
+   padding:0 20px;
+   margin:10px 0;
+}
+
+table>tbody>tr>td{
+   padding:10px 20px;
+   border-bottom:#dededc 1px dashed;
+}
+
+table>tbody>tr:first-child>td{
+   text-indent:30px;
+   color:#f84600;
+   font-weight:bold;
+}
+
+table>tbody>tr>td>a{
+   text-decoration:none;
+   color:blue;
+}
+
+table+p{
+   text-align:center;
+   margin-top:30px;
+}
+
+table+p>span{
+   color:#f84600;
+   display:inline-block;
+   padding:2px 5px;
+   border:1px #f84600 solid;
+   cursor:pointer;
+}
+
+table+p>span:hover{
+   text-decoration:underline;
+}
