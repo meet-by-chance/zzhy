@@ -1,0 +1,184 @@
+@charset  "utf-8";
+
+
+
+article>article{
+	overflow:hidden;
+}
+
+article>article>aside{
+   width:220px;
+   border:#e5e5e5 thin solid;
+   float:left;
+   height:447px;
+}
+
+article>article>#main{
+   float:right;
+   width:760px;
+   border:#e5e5e5 thin solid;
+   position:relative;
+   height:447px;
+}
+
+article>article>#main>div{
+	position:absolute;
+	left:0;
+	top:32px;
+}
+
+article>article>#main>p,article>article>aside>p{
+   height:30px;
+   line-height:30px;
+   padding-left:10px;
+   margin:0;
+   background:url('../image/loginP.jpg') repeat scroll;
+}
+
+article>article>#main>p>span{
+	color:#666;
+}
+
+article>article>#main>p>span>a{
+	color:#666;
+	text-decoration:none;
+}
+
+article>article>#main>p>span>a:hover{
+	color:#666 !important;
+}
+
+article>article>aside>p{
+	cursor:pointer;
+}
+
+article>article>aside>p>i{
+	color:#f84600;
+	margin-right:10px;
+	margin-left:20px;
+}
+
+article>article>aside>p>i.fa{
+	opacity:0.7;
+}
+
+article>article>#main>#state{
+    padding:15px  20px;
+}
+
+article>article>#main>#state>ol{
+	margin:0;
+	padding-bottom:10px;
+	list-style-position:inside;
+}
+
+article>article>#main>#state>ol>li>p{
+	text-indent:25px;
+	line-height:18px;
+}
+
+article>article>#main>#message>h4{
+  padding:15px 0px;
+  border-bottom:#e5e5e5 1px solid;
+  width:90%;
+  margin:5px auto;
+}
+
+article>article>#main>#message>form{
+	padding:0px 100px;
+    margin-top:20px;
+}
+
+article>article>#main>#message>form>p{
+	width:299px;
+	position:relative;
+    margin:10px;
+}
+
+article>article>#main>#message>form>p>i{
+    position:absolute;
+    right:10px;
+    display:inline-block;
+    height:26px;
+    line-height:26px;
+    color:#f84600;
+    opacity:0.5;
+    cursor:pointer;
+}
+
+article>article>#main>#message>form>p>span{
+	display:inline-block;
+	height:27px;
+	line-height:27px;
+}
+
+article>article>#main>#message>form>p>span>span,
+article>article>#main>#message>h4>span{
+  color:red;
+}
+
+article>article>#main>#message>form>p>input{
+	width:220px;
+	height:22px;
+	line-height:22px;
+	border:#ccc thin solid;
+	padding:2px 5px;
+	float:right;
+}
+
+article>article>#main>#message>form>p>textarea{
+	float:right;
+	resize:none;
+	width:220px;
+	height:100px;
+	padding:10px 5px;
+}
+
+article>article>#main>#message>form>p>input#sub{
+	padding:5px 40px;
+	border:none;
+	width:auto;
+	height:auto;
+	line-height:auto;
+	float:none;
+	background-color:#f84600;
+	color:#fff;
+	margin-top:20px;
+	margin-left:115px;
+	margin-bottom:5px;
+	cursor:pointer;
+}
+
+article>article>#main>#serve,
+article>article>#main>#adv{
+	padding:20px;
+}
+
+article>article>#main>#serve>ol>li,
+article>article>#main>#adv>ol>li{
+	padding:3px 0;
+}
+
+article>article>#main>#serve>p,
+article>article>#main>#adv>p{
+	line-height:17px;
+}
+
+.hover{
+	background-color:#f84600;
+	background-image:none;
+	color:#fff;
+	opacity:0.7;
+}
+
+.i{
+	color:#fff;
+	opacity:1 !important;
+}
+
+.click{
+	background-image:none;
+	background-color:#f84600;
+	color:#fff;
+	opacity:1;
+}
