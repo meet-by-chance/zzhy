@@ -1,0 +1,130 @@
+@charset  "utf-8";
+
+
+
+article>article>aside{
+   width:220px;
+   border:#e5e5e5 thin solid;
+   border-top:none;
+   float:left;
+}
+
+article>article>aside>ul{
+   padding:0.5px 10px;
+   margin:0;
+}
+
+article>article>aside>ul>li{
+   list-style:none;
+   height:27px;
+   white-space:nowrap;
+   overflow:hidden;
+   line-height:27px;
+}
+
+article>article>aside>ul>li>a{
+   text-decoration:none;
+   color:#000;
+   margin-left:5px;
+}
+
+article>article>aside>h3{
+   position:relative;
+   left:-9px;
+   top:0;
+   height:51px;
+   margin:0;
+   line-height:40px;
+   padding-left:17px;
+   padding-right:5px;
+   width:207px;
+   background:url("../image/aside_bg.gif") no-repeat scroll left top;
+}
+
+article>article>#main{
+   float:right;
+   width:760px;
+   height:375px;
+   border:#e5e5e5 thin solid;
+}
+
+article>article>#main>p{
+   height:40px;
+   line-height:40px;
+   padding-left:10px;
+   margin:0;
+   background:url('../image/loginP.jpg') repeat scroll;
+}
+
+article>article>#main>p>span{
+	color:#666;
+}
+
+article>article>#main>p>span>a{
+	color:#666;
+	text-decoration:none;
+}
+
+article>article>#main>p>span>a:hover{
+	color:#666 !important;
+}
+
+article>article>#main>form{
+	padding:0px 100px;
+	margin-top:40px;
+}
+
+article>article>#main>form>p{
+	padding:5px 0;
+	width:289px;
+	position:relative;
+}
+
+article>article>#main>form>p>i{
+    position:absolute;
+    right:10px;
+    display:inline-block;
+    height:26px;
+    line-height:26px;
+    color:#f84600;
+    opacity:0.5;
+    cursor:pointer;
+}
+
+article>article>#main>form>p>i:hover{
+    opacity:1;
+}
+
+article>article>#main>form>p>span{
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+}
+
+article>article>#main>form>p>input{
+	width:210px;
+	height:22px;
+	line-height:22px;
+	border:#ccc thin solid;
+	padding:2px 5px;
+	float:right;
+}
+
+article>article>#main>form>p>input#login{
+	width:171px;
+	height:47px;
+	background-image:url("../image/log_button.jpg");
+	border:none;
+	cursor:pointer;
+	float:none;
+	margin-left:80px;
+	margin-top:10px;
+}
+
+article>article>#main>a{
+	text-decoration:none;
+	color:blue;
+	margin-left:131px;
+	margin-top:20px;
+	display:inline-block;
+}
