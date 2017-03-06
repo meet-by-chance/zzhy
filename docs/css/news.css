@@ -1,0 +1,76 @@
+@charset  "utf-8";
+
+
+
+article>article{
+	overflow:hidden;
+}
+
+article>article>aside{
+   width:220px;
+   border:#e5e5e5 thin solid;
+   float:left;
+   height:447px;
+}
+
+article>article>#main{
+   float:right;
+   width:760px;
+   border:#e5e5e5 thin solid;
+   position:relative;
+   height:447px;
+}
+
+article>article>#main>p,article>article>aside>p{
+   height:30px;
+   line-height:30px;
+   padding-left:10px;
+   margin:0;
+   background:url('../image/loginP.jpg') repeat scroll;
+}
+
+article>article>#main>p>span{
+   color:#666;
+}
+
+article>article>#main>p>span>a{
+   color:#666;
+   text-decoration:none;
+}
+
+article>article>#main>p>span>a:hover{
+   color:#666 !important;
+}
+
+article>article>aside>p{
+   cursor:pointer;
+}
+
+article>article>aside>p>i{
+   color:#f84600;
+   margin-right:10px;
+   margin-left:20px;
+}
+
+article>article>aside>p>i.fa{
+   opacity:0.7;
+}
+
+.hover{
+   background-color:#f84600;
+   background-image:none;
+   color:#fff;
+   opacity:0.7;
+}
+
+.i{
+   color:#fff;
+   opacity:1 !important;
+}
+
+.click{
+   background-image:none;
+   background-color:#f84600;
+   color:#fff;
+   opacity:1;
+}
