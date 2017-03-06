@@ -1,0 +1,61 @@
+@charset  "utf-8";
+
+
+
+article>article{
+	overflow:hidden;
+}
+
+article>article>aside{
+   width:220px;
+   border:#e5e5e5 thin solid;
+   float:left;
+}
+
+article>article>#main{
+   float:right;
+   width:760px;
+   border:#e5e5e5 thin solid;
+   position:relative;
+   height:747px;
+}
+
+article>article>#main>p,article>article>aside>p{
+   height:35px;
+   line-height:35px;
+   padding-left:20px;
+   margin:0;
+   background:url('../image/loginP.jpg') repeat scroll;
+}
+
+article>article>#main>p>span{
+   color:#666;
+}
+
+article>article>#main>p>span>a{
+   color:#666;
+   text-decoration:none;
+}
+
+article>article>#main>p>span>a:hover{
+   color:#666 !important;
+}
+
+article>article>aside>ul{
+   list-style:none;
+   padding:0;
+   margin:0;
+}
+
+article>article>aside>ul>li{
+   height:30px;
+   line-height:30px;
+   cursor:pointer;
+   border-bottom:#ddd thin dashed;
+   padding-left:20px;
+}
+
+article>article>aside>ul>li:last-child{
+   border:none;
+}
+
