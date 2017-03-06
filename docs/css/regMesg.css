@@ -1,0 +1,77 @@
+
+@charset "utf-8";
+
+
+article>article{
+   border:#e5e5e5 thin solid;
+}
+
+article>article>p:first-child{
+   background:url('../image/loginP.jpg') repeat scroll;
+   margin:0;
+   height:38px;
+   line-height:38px;
+   padding:0  10px;
+}
+
+article>article>p>span{
+   color:#666;
+}
+
+article>article>p>span>a{
+   text-decoration:none;
+   color:#666;
+}
+
+article>article>p>span>a:hover{
+   color:#666 !important;
+}
+
+article>article>h4{
+   padding:30px 10px;
+   border-bottom:#e5e5e5 1px solid;
+   width:920px;
+   margin:0 auto;
+}
+
+ article>article>p#special{
+   line-height:18px;
+   text-indent:25px;
+   padding:5px 0;
+   width:920px;
+   margin:12px auto;
+}
+
+article>article>ol{
+   padding:0 65px;
+   margin:0;
+   list-style-position:inside;
+}
+
+article>article>ol>li>p{
+   text-indent:25px;
+   line-height:18px;
+}
+
+article>article>ol>li>ul{
+   list-style:none;
+   margin:12px 0;
+}
+
+article>article>ol>li>ul>li>span{
+   margin-right:10px;
+}
+
+article>article li{
+   line-height:18px;
+}
+
+article>article>button{
+   width:171px;
+   height:47px;
+   background-image:url('../image/reg_button.jpg');
+   border:none;
+   margin:30px auto 10px auto;
+   display:block;
+   cursor:pointer;
+}
